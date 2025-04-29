@@ -1,0 +1,427 @@
+/* CHARTE GRAPHIQUE
+#FA2056 : cta button
+#F5F5F5 : background color
+Font Body: Noto Serif
+Font Titre: Montserrat
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Header Image Background */
+.hero-content {
+  height: 90vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/hero);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Header Logo */
+.logo img {
+  width: 10vw;
+  padding: 10px 20px;
+}
+/* NavBar */
+.nav {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.button {
+  background-color: #fa2056;
+  color: white;
+  font-family: Noto Sans, sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 30px;
+}
+.cta-button:hover {
+  background-color: #fa2056;
+}
+/* NavBar links */
+.navlink {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: white;
+  font-family: Noto Sans, sans-serif;
+  font-size: 1rem;
+  gap: 35px;
+}
+.navlink a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: 1rem;
+}
+/* CTA Button */
+.cta-button {
+  background-color: #fa2056;
+  color: white;
+  font-family: Noto Sans, sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 30px;
+}
+.cta-button:hover {
+  background-color: #fa2056;
+}
+/* Style Hero */
+.hero-content {
+  color: white;
+  text-align: center;
+  font-family: Noto Sans, sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero-content h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.hero-content h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.redline {
+  width: 100px;
+  height: 3px;
+  background-color: #fa2056;
+}
+/* Section 1: citation */
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  background-color: #e7e7e7;
+  margin: 0 auto;
+}
+.quote {
+  background-color: #e7e7e7;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  position: absolute;
+  padding-top: 50px;
+  left: 15%;
+  color: white;
+  font-family: "Notosans", sans-serif;
+  font-size: 1rem;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Notosans", sans-serif;
+  color: #363636;
+  background-color: #e7e7e7;
+  padding-top: 50px;
+  margin: auto;
+}
+.author {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1rem;
+  text-align: center;
+  font-family: "Notosans", sans-serif;
+  color: #363636;
+  background-color: #e7e7e7;
+  padding: 20px 20px;
+  margin: auto;
+}
+/* Section 1 event */
+.upcoming-events {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #e7e7e7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.upcoming-events h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: black;
+  font-family: "Notosans", sans-serif;
+  text-align: center;
+  background-color: #e7e7e7;
+}
+.redline {
+  width: 100px;
+  height: 3px;
+  background-color: #fa2056;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7e7e7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.event-trek {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  background-color: #e7e7e7;
+  font-family: "Notosans", sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+.event1 img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #e7e7e7;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.event-trek h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: black;
+}
+.event-trek p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #363636;
+}
+.cta-button {
+  background-color: #fa2056;
+  color: white;
+  font-family: Notosans, sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 30px;
+}
+.event-walk {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  background-color: #e7e7e7;
+  font-family: "Notosans", sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+.event2 img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #e7e7e7;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.event-walk h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: black;
+}
+.event-walk p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #363636;
+}
+.cta-button {
+  background-color: #fa2056;
+  color: white;
+  font-family: Noto Sans, sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 30px;
+}
+/* section 2 explore */
+.explore {
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/explore);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 70vh;
+}
+.none {
+  display: flex;
+  width: 50%;
+}
+.explore-contener {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 30%;
+  font-family: "Notosans", sans-serif;
+  color: white;
+  padding-top: 10%;
+  padding-bottom: 50px;
+}
+.explore-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.explore h2 {
+  font-size: 2rem;
+  font-family: Notosans, sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+  text-align: left;
+}
+.redline {
+  width: 30px;
+  height: 3px;
+  background-color: #fa2056;
+}
+.explore p {
+  font-size: 1rem;
+  font-family: Notosans, sans-serif;
+  margin-bottom: 20px;
+  color: white;
+  text-align: left;
+}
+.cta-button {
+  background-color: #fa2056;
+  color: white;
+  font-family: Noto Sans, sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 30px;
+}
+/* section 3 tours */
+.tours {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  gap: 10px;
+  background-color: #e7e7e7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.redline {
+  width: 100px;
+  height: 3px;
+  background-color: #fa2056;
+}
+.tours-content {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 25vw;
+  gap: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.tours h2 {
+  font-size: 2rem;
+  padding-bottom: 20px;
+  color: black;
+  font-family: "Notosans", sans-serif;
+  padding-right: 30px;
+}
+.tours p {
+  font-size: 1rem;
+  font-family: notosans, sans-serif;
+  margin-top: 20px;
+  padding-bottom: 50px;
+  color: #363636;
+  padding-right: 30px;
+}
+.cta-button {
+  background-color: #fa2056;
+  color: white;
+  font-family: Noto Sans, sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 30px;
+}
+.image-content-1 {
+  align-items: center;
+  width: 25vw;
+  gap: 10px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.image-content-1 img {
+  width: 25vw;
+  border-radius: 5px;
+}
+.image-content-2 {
+  justify-content: center;
+  align-items: center;
+  width: 25vw;
+  gap: 20px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.image-content-2 img {
+  width: 25vw;
+  border-radius: 5px;
+}
+.tours-content img {
+  width: 25vw;
+}
+/* footer */
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #363636;
+  font-family: "Notosans", sans-serif;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
