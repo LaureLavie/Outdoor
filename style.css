@@ -23,13 +23,13 @@ Font Titre: Montserrat
 }
 /* Header Logo */
 .logo img {
-  width: 10vw;
+  width: 7vw;
   padding: 10px 20px;
 }
 /* NavBar */
 .nav {
   position: absolute;
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -82,7 +82,7 @@ Font Titre: Montserrat
 .hero-content {
   color: white;
   text-align: center;
-  font-family: Noto Sans, sans-serif;
+  font-family: Montserrat, sans-serif;
   font-weight: bold;
   display: flex;
   flex-direction: column;
@@ -102,71 +102,49 @@ Font Titre: Montserrat
   background-color: #fa2056;
 }
 /* Section 1: citation */
-.quote-section {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  width: 100%;
+.citation {
   background-color: #e7e7e7;
-  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.citation img {
+  position: absolute;
+  width: 6vw;
+  left: 10%;
 }
 .quote {
   background-color: #e7e7e7;
-  width: 60px;
-  height: 60px;
-  display: flex;
-  flex-direction: row;
-  text-align: center;
-  position: absolute;
-  padding-top: 50px;
-  left: 15%;
-  color: white;
-  font-family: "Notosans", sans-serif;
-  font-size: 1rem;
 }
 .text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   font-size: 1.5rem;
   text-align: center;
   font-family: "Notosans", sans-serif;
   color: #363636;
   background-color: #e7e7e7;
-  padding-top: 50px;
-  margin: auto;
 }
 .author {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   font-size: 1rem;
   text-align: center;
   font-family: "Notosans", sans-serif;
   color: #363636;
   background-color: #e7e7e7;
   padding: 20px 20px;
-  margin: auto;
 }
 /* Section 1 event */
 .upcoming-events {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 100%;
-  margin: 0 auto;
   background-color: #e7e7e7;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 .upcoming-events h2 {
   font-size: 2rem;
-  margin-bottom: 20px;
   color: black;
-  font-family: "Notosans", sans-serif;
-  text-align: center;
+  font-family: montserrat, sans-serif;
   background-color: #e7e7e7;
+  padding-bottom: 20px;
 }
 .redline {
   width: 100px;
@@ -174,45 +152,37 @@ Font Titre: Montserrat
   background-color: #fa2056;
 }
 .container {
+  width: 80%;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
-  background-color: #e7e7e7;
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 .event-trek {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 35%;
   background-color: #e7e7e7;
-  font-family: "Notosans", sans-serif;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
   margin: 0 auto;
 }
 .event1 img {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%;
-  background-color: #e7e7e7;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
 .event-trek h3 {
   font-size: 1.5rem;
+  font-family: montserrat, sans-serif;
   margin-bottom: 20px;
   margin-top: 20px;
   color: black;
 }
 .event-trek p {
   font-size: 1rem;
+  font-family: notosans, sans-serif;
   margin-bottom: 20px;
   color: #363636;
 }
@@ -229,34 +199,28 @@ Font Titre: Montserrat
 .event-walk {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  width: 40%;
-  background-color: #e7e7e7;
-  font-family: "Notosans", sans-serif;
+  width: 35%;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
   margin: 0 auto;
 }
 .event2 img {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%;
-  background-color: #e7e7e7;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
 }
 .event-walk h3 {
   font-size: 1.5rem;
+  font-family: montserrat, sans-serif;
   margin-bottom: 20px;
   margin-top: 20px;
   color: black;
 }
 .event-walk p {
   font-size: 1rem;
+  font-family: notosans, sans-serif;
   margin-bottom: 20px;
   color: #363636;
 }
@@ -277,39 +241,29 @@ Font Titre: Montserrat
     url(./images/explore);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100%;
-  height: 70vh;
+  height: 60vh;
 }
 .none {
-  display: flex;
   width: 50%;
 }
 .explore-contener {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
   width: 30%;
-  font-family: "Notosans", sans-serif;
   color: white;
   padding-top: 10%;
-  padding-bottom: 50px;
 }
 .explore-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 .explore h2 {
   font-size: 2rem;
-  font-family: Notosans, sans-serif;
+  font-family: montserrat, sans-serif;
   font-weight: bold;
   margin-bottom: 20px;
   color: white;
-  text-align: left;
 }
 .redline {
   width: 30px;
@@ -321,7 +275,6 @@ Font Titre: Montserrat
   font-family: Notosans, sans-serif;
   margin-bottom: 20px;
   color: white;
-  text-align: left;
 }
 .cta-button {
   background-color: #fa2056;
@@ -336,11 +289,9 @@ Font Titre: Montserrat
 /* section 3 tours */
 .tours {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
-  align-content: center;
-  gap: 10px;
+  width: 100%;
+  gap: 20px;
   background-color: #e7e7e7;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -351,10 +302,7 @@ Font Titre: Montserrat
   background-color: #fa2056;
 }
 .tours-content {
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 25vw;
+  width: 20%;
   gap: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -363,16 +311,15 @@ Font Titre: Montserrat
   font-size: 2rem;
   padding-bottom: 20px;
   color: black;
-  font-family: "Notosans", sans-serif;
-  padding-right: 30px;
+  font-family: montserrat, sans-serif;
 }
 .tours p {
   font-size: 1rem;
   font-family: notosans, sans-serif;
+  line-height: 27px;
   margin-top: 20px;
   padding-bottom: 50px;
   color: #363636;
-  padding-right: 30px;
 }
 .cta-button {
   background-color: #fa2056;
@@ -385,30 +332,25 @@ Font Titre: Montserrat
   border-radius: 30px;
 }
 .image-content-1 {
-  align-items: center;
-  width: 25vw;
-  gap: 10px;
+  width: 20%;
   padding-top: 30px;
   padding-bottom: 50px;
 }
 .image-content-1 img {
-  width: 25vw;
+  width: 20vw;
   border-radius: 5px;
 }
 .image-content-2 {
-  justify-content: center;
-  align-items: center;
-  width: 25vw;
-  gap: 20px;
+  width: 20%;
   padding-top: 30px;
   padding-bottom: 50px;
 }
 .image-content-2 img {
-  width: 25vw;
+  width: 20vw;
   border-radius: 5px;
 }
 .tours-content img {
-  width: 25vw;
+  width: 20vw;
 }
 /* footer */
 .footer-content {
@@ -424,4 +366,93 @@ Font Titre: Montserrat
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
+}
+@media (max-width: 768px) {
+  .header {
+    width: 100%;
+  }
+  .nav {
+    width: 100%;
+    align-items: center;
+  }
+  .quote-section {
+    width: 100%;
+  }
+  .upcoming-events {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .explore {
+    max-width: 100%;
+    justify-content: center;
+  }
+  .tours {
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image-content-1 img {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+  .image-content-2 img {
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+  .footer {
+    max-width: 100vw;
+  }
+}
+
+@media (max-width: 430px) {
+  .header {
+    max-width: 100%;
+  }
+  .nav {
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .quote-section {
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .upcoming-events {
+    max-width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .explore {
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tours {
+    max-width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .image-content-1 img {
+    max-width: 100vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-content-2 img {
+    max-width: 100vw;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer {
+    max-width: 100vw;
+    flex-direction: column;
+  }
 }

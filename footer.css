@@ -1,0 +1,15 @@
+/* footer */
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #363636;
+  font-family: "Notosans", sans-serif;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}

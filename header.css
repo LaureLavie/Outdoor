@@ -1,0 +1,47 @@
+/* Header Image Background */
+.header {
+  height: 70vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/hero);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* CTA Button */
+.cta-button {
+  background-color: #fa2056;
+  color: white;
+  font-family: Noto Sans, sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+/* Style Hero */
+.header {
+  color: white;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.header h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.redline {
+  width: 100px;
+  height: 3px;
+  background-color: #fa2056;
+}
