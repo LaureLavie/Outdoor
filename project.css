@@ -1,0 +1,94 @@
+@import url(./footer.css);
+@import url(./header.css);
+@import url(./nav.css);
+@import url(./main.css);
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 60vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/project-background.jpg);
+}
+.main-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7e7e7;
+  padding: 5rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7e7e7;
+}
+
+.container h2 {
+  font-size: 2.3rem;
+  font-family: montserrat;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+  margin-top: 1rem;
+  background-color: #e7e7e7;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  width: 70%;
+}
+.sous-titre {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 1rem;
+  margin-top: 5rem;
+}
+.h4 {
+  font-size: 1.5rem;
+  font-family: montserrat;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+  margin-top: 2rem;
+}
+.h2 {
+  font-size: 1.5rem;
+  font-family: notosans sans;
+  color: black;
+  text-align: left;
+  margin-top: 1rem;
+}
+.main-section p {
+  font-size: 1rem;
+  font-family: notosans sans;
+  color: black;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+.carrousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  padding-top: 2rem;
+}
+
+.content-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+.content-image img {
+  display: flex;
+  width: 30%;
+  border-radius: 10px;
+}
