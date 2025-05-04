@@ -1,7 +1,7 @@
-@import url(./footer.css);
-@import url(./header.css);
-@import url(./nav.css);
-@import url(./main.css);
+@import url(../css/footer.css);
+@import url(../css/header.css);
+@import url(../css/nav.css);
+@import url(../css/main.css);
 * {
   margin: 0;
   padding: 0;
@@ -10,20 +10,18 @@
   height: 60vh;
   width: 100vw;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(./images/about-bg-2.jpg);
+    url(../images/about-bg-2.jpg);
 }
 .section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  width: 100%;
 }
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
 .contact-section .btn {
   background-color: #fa2056;
@@ -34,4 +32,10 @@
   cursor: pointer;
   text-decoration: none;
   border-radius: 30px;
+}
+.social-logo img {
+  display: flex;
+  flex-direction: row;
+  width: 3rem;
+  color: #fa2056;
 }
